@@ -1,0 +1,10 @@
+cmd에서
+1. nginx 경로 설정
+cd C:\nginx-1.14.2\conf
+
+2. start nginx (그냥 nginx 치지 말 것)
+
+끌때는 nginx -s stop
+
+이름 localhost 8001번포트에, root가 countries 폴더가 되도록 설정되어 있음 (nginx conf에서)
+켜졌는지 확인: http://localhost:8001/flags/ad/ad.gif
